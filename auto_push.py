@@ -8,5 +8,5 @@ def job(dir):
     os.system('git push -u origin master')
     return
 while True:
-    job('/Users/sujiaqi/Desktop/Github/python-every-day')
+    job('/Users/python-every-day')
     time.sleep(600)
