@@ -12,6 +12,8 @@
 
 > 然后说说我的配置，我是conda，ipython，jupyter notebook三者联用。我安装的conda为miniconda不是anaconda，因为miniconda更快一点，体积更小一点，然后分别创造python2.x以及python3.x两个环境，在其中安装好ipython以及jupyter notebook进行使用。
 
+**后续的所有程序均在IDE中运行，如果你喜欢简单那么ipython，如果你需要一些可视化比较强的那么jupyter notebook，如果你需要一套强大的工具包那么PyCharm，vscode或者conda**
+
 ### IDE安装：
 
 1. Pycharm安装：https://zhuanlan.zhihu.com/p/51780281
