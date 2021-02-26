@@ -1531,3 +1531,7 @@ Your branch is up to date with 'origin/master'.
 
 nothing to commit, working tree clean
 fatal: unable to access 'https://gitee.com/luskyqi/python-every-day.git/': Could not resolve host: gitee.com
+[master 268ec57] Fri Feb 26 22:54:37 2021
+ 1 file changed, 3 insertions(+)
+ create mode 100644 "Python\346\257\217\346\227\245\344\270\200\350\260\210\357\275\234No.7.md"
+fatal: unable to access 'https://gitee.com/luskyqi/python-every-day.git/': Could not resolve host: gitee.com
