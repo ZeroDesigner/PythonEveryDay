@@ -92,5 +92,11 @@ In [13]: for i in range(4):
 
 让我们再来看看`else`
 
-else在循环中也可以使用，
+`else`在循环中也可以使用
+
+```
+for i in 
+```
+
+
 
