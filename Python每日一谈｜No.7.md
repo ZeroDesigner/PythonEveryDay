@@ -94,9 +94,68 @@ In [13]: for i in range(4):
 
 `else`在循环中也可以使用
 
-```
-for i in 
+
+
+我们先来看一个简单的例子
+
+```python
+
+In [19]: list = [1,2,3,4,5]
+    ...: for x in list:
+    ...:     print(x)
+    ...: else:
+    ...:     print("else")
+    ...:
+1
+2
+3
+4
+5
+else
+
 ```
 
 
+
+在上例中，我们先使用`for`遍历了`x`，执行完成之后，程序执行`else`语句，打印出`print`
+
+是不是感觉好像else没有什么用处
+
+就仿佛。。。。
+
+```python
+    ...: for x in list:
+    ...:     print(x)
+    ...: print("else")
+1
+2
+3
+4
+5
+else
+```
+
+恩。。。确实是，我们再来看一个官方例子
+
+```python
+In [22]: for n in range(2, 10):
+    ...:     for x in range(2, n):
+    ...:         if n % x == 0:
+    ...:             print( n, '等于', x, '*', n/x)
+    ...:             break
+    ...:     else:
+    ...:         # loop fell through without finding a factor
+    ...:         print(n, '是一个素数')
+    ...:
+2 是一个素数
+3 是一个素数
+4 等于 2 * 2.0
+5 是一个素数
+6 等于 2 * 3.0
+7 是一个素数
+8 等于 2 * 4.0
+9 等于 3 * 3.0
+```
+
+整个过程发生了什么
 
