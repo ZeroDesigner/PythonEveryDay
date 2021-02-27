@@ -159,3 +159,31 @@ In [22]: for n in range(2, 10):
 
 整个过程发生了什么
 
+```
+#我们首先使用range函数创造了一个整数列表
+In [23]: for n in range(2, 10):
+    ...:     print(n)
+    ...:
+2
+3
+4
+5
+6
+7
+8
+9
+# 然后我们使用range函数创建了，从2到n的一个整数列表
+In [26]: for n in range(2, 10):
+    ...:     print(range(2,n))
+    ...:
+range(2, 2)
+range(2, 3)
+range(2, 4)
+range(2, 5)
+range(2, 6)
+range(2, 7)
+range(2, 8)
+range(2, 9)
+# 
+```
+
