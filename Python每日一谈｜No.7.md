@@ -144,7 +144,6 @@ In [22]: for n in range(2, 10):
     ...:             print( n, '等于', x, '*', n/x)
     ...:             break
     ...:     else:
-    ...:         # loop fell through without finding a factor
     ...:         print(n, '是一个素数')
     ...:
 2 是一个素数
@@ -159,8 +158,8 @@ In [22]: for n in range(2, 10):
 
 整个过程发生了什么
 
-```
-#我们首先使用range函数创造了一个整数列表
+```python
+# 我们首先使用range函数创造了一个整数列表
 In [23]: for n in range(2, 10):
     ...:     print(n)
     ...:
@@ -184,6 +183,60 @@ range(2, 6)
 range(2, 7)
 range(2, 8)
 range(2, 9)
-# 
+# 随后我们来检查是否n处以x等于0
+In [28]: for n in range(2, 10):
+    ...:     for x in range(2, n):
+    ...:         if n % x == 0:
+    ...:            print( 'check',n,'/',x,'=0')
+    ...:            print( n, '等于', x, '*', n/x)
+    ...:
+check 4 / 2 =0
+4 等于 2 * 2.0
+check 6 / 2 =0
+6 等于 2 * 3.0
+check 6 / 3 =0
+6 等于 3 * 2.0
+check 8 / 2 =0
+8 等于 2 * 4.0
+check 8 / 4 =0
+8 等于 4 * 2.0
+check 9 / 3 =0
+9 等于 3 * 3.0
+# 如果我们发现了n除以x等于0
+# 例如 check 6 / 2 =0
+# 那么打印出6 等于 2 * 3.0
+# for x in range(2, n) 被break掉，else不会执行
+In [29]: for n in range(2, 10):
+    ...:     for x in range(2, n):
+    ...:         if n % x == 0:
+    ...:             print( n, '等于', x, '*', n/x)
+    ...:             break
+    ...:
+4 等于 2 * 2.0
+6 等于 2 * 3.0
+8 等于 2 * 4.0
+9 等于 3 * 3.0
+# 如果我们没有发现n除以x等于0
+# 那么执行else
+# 打印出3 是个素数
+In [32]: for n in range(2, 10):
+    ...:     for x in range(2, n):
+    ...:         if n % x == 0:
+    ...:             print( n, '等于', x, '*', n/x)
+    ...:             break
+    ...:     else:
+    ...:         # loop fell through without finding a factor
+    ...:
+    ...:         print(n, '是个素数')
+    ...:
+2 是个素数
+3 是个素数
+4 等于 2 * 2.0
+5 是个素数
+6 等于 2 * 3.0
+7 是个素数
+8 等于 2 * 4.0
+9 等于 3 * 3.0
 ```
 
+其实，写到这里我也有些困了，for 和else一起搭的用法确实有些反人类，看看官方的这个例子，
