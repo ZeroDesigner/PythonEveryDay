@@ -73,7 +73,16 @@ ipython
 
 #### conda 包查询网址：https://anaconda.org/anaconda
 
+```python
+mymac:~/ $ conda activate py3                                                                                [20:21:30]
+(py3) mymac:~/ $ ipython                                                                                     [20:26:57]
+Python 3.7.7 (default, Mar 26 2020, 10:32:53)
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.13.0 -- An enhanced Interactive Python. Type '?' for help.
 
+In [1]: print('hellow world!')
+hellow world!
+```
 
 
 
