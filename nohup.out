@@ -2335,3 +2335,15 @@ remote: Powered by [01;33mGITEE.COM [0m[[01;35mGNK-5.0[0m][0m
 To https://gitee.com/luskyqi/python-every-day.git
    77b23c5..bca32eb  master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
+fatal: cannot lock ref 'HEAD': is at 8ebc99841dc8c3267ffd36105d50611781e11378 but expected bca32eb60b5168f3454ff180bfad37b930bd70c8
+remote: Powered by [01;33mGITEE.COM [0m[[01;35mGNK-5.0[0m][0m        
+To https://gitee.com/luskyqi/python-every-day.git
+   bca32eb..8ebc998  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+fatal: Unable to create '/Users/sujiaqi/Desktop/Github/python-every-day/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
