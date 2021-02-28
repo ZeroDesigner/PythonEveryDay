@@ -2296,3 +2296,17 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+[master 6f80914] Sun Feb 28 21:27:22 2021
+ 1 file changed, 14 insertions(+)
+remote: Powered by [01;33mGITEE.COM [0m[[01;35mGNK-5.0[0m][0m        
+remote: error: cannot lock ref 'refs/heads/master': is at 6f80914de76456a3c66ea202287b883d925df60f but expected e12af36f567fa68f24d22fd3997fe04ef5cfdeb6        
+To https://gitee.com/luskyqi/python-every-day.git
+ ! [remote rejected] master -> master (failed to update ref)
+error: failed to push some refs to 'https://gitee.com/luskyqi/python-every-day.git'
+fatal: Unable to create '/Users/sujiaqi/Desktop/Github/python-every-day/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
