@@ -2330,3 +2330,8 @@ remote: error: cannot lock ref 'refs/heads/master': is at 77b23c5b163cace66af155
 To https://gitee.com/luskyqi/python-every-day.git
  ! [remote rejected] master -> master (failed to update ref)
 error: failed to push some refs to 'https://gitee.com/luskyqi/python-every-day.git'
+fatal: cannot lock ref 'HEAD': is at bca32eb60b5168f3454ff180bfad37b930bd70c8 but expected 77b23c5b163cace66af155ad5f98630ceddf51ae
+remote: Powered by [01;33mGITEE.COM [0m[[01;35mGNK-5.0[0m][0m        
+To https://gitee.com/luskyqi/python-every-day.git
+   77b23c5..bca32eb  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
