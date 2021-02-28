@@ -25,6 +25,8 @@
    miniconda版本：https://www.jianshu.com/p/edaa744ea47d
 
    anaconda版本：https://blog.csdn.net/tqlisno1/article/details/108908775
+   
+   
 
 ### IDE使用：
 
@@ -55,10 +57,17 @@ conda install package_name
 #package_name为包的名称
 
 #指定安装包版本
-conda install python=2.7
+conda install python=3.5
+
+#安装ipython
+conda install -c anaconda ipython 
+
+#启动ipython
+ipython
+
 ```
 
-
+#### conda 包查询网址：https://anaconda.org/anaconda
 
 
 
