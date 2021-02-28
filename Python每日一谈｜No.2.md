@@ -1,5 +1,9 @@
 ## Python每日一谈｜No.2.IDE简介
 
+### 前言：
+
+
+
 ### IDE简介：
 
 > 集成开发环境（IDE，Integrated Development Environment ）是用于提供程序开发环境的应用程序，一般包括代码编辑器、编译器、调试器和图形用户界面工具。集成了代码编写功能、分析功能、编译功能、调试功能等一体化的开发软件服务套。所有具备这一特性的软件或者软件套（组）都可以叫集成开发环境。如微软的Visual Studio系列，Borland的C++ Builder、Delphi系列等。该程序可以独立运行，也可以和其它程序并用。IDE多被用于开发HTML应用软件。例如，许多人在设计网站时使用IDE（如HomeSite、DreamWeaver等），因为很多项任务会自动生成。微软的Visual Basic是早期的典型的可视化开发环境，后来的包括Borland公司的Delphi等。
