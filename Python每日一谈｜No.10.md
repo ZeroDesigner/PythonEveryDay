@@ -26,7 +26,7 @@
 
 3. 迭代器有两个基本的方法：**iter()** 和 **next()**
 
-4. 字符串，列表或元组对象都可用于创建迭代器
+4. 字符串，列表，元组，字典对象都可用于创建迭代器
 
 简而言之，一个字符串，列表或元组被迭代化后，他就变成了一个迭代器类似的存在，迭代器可以进行迭代，且只能向前不能向后
 
@@ -82,11 +82,35 @@ StopIteration                             Traceback (most recent call last)
 <ipython-input-18-adb3e17b0219> in <module>
 ----> 1 next(b)
 
+#当然，如果是字典的话
+In [19]: a={'b':1,'c':2}
+
+In [20]: iter(a)
+Out[20]: <dict_keyiterator at 0x7fc9b8331170>
+
+In [21]: d = iter(a)
+
+In [22]: next(d)
+Out[22]: 'b'
+
+In [23]: next(d)
+Out[23]: 'c'
+
+In [24]: next(d)
+---------------------------------------------------------------------------
+StopIteration                             Traceback (most recent call last)
+<ipython-input-24-9b2daf1403f5> in <module>
+----> 1 next(d)
+
 StopIteration:
-  
  
 ```
 
 
 
-In [1]: a='abcd'
+那其实现在，我们就有一个问题，为什么要用迭代器呢？
+
+话说我直接使用`for`，`while`循环遍历他不香吗？
+
+
+
