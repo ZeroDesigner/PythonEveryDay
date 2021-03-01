@@ -2744,3 +2744,10 @@ remote: error: cannot lock ref 'refs/heads/master': is at b38d09cee6629ab370780d
 To https://gitee.com/luskyqi/python-every-day.git
  ! [remote rejected] master -> master (failed to update ref)
 error: failed to push some refs to 'https://gitee.com/luskyqi/python-every-day.git'
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
