@@ -3079,3 +3079,14 @@ remote: Powered by [01;33mGITEE.COM [0m[[01;35mGNK-5.0[0m][0m
 To https://gitee.com/luskyqi/python-every-day.git
    70c221f..b74ecd6  master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+remote: Powered by [01;33mGITEE.COM [0m[[01;35mGNK-5.0[0m][0m        
+remote: QENV: [31mdircalculate: opendir() failed[0m        
+remote: error: cannot lock ref 'refs/heads/master': is at bfc3658d3d23215b94a2771f5f2e88ecc1c0db9f but expected b74ecd60b9d0135abb30a988446bbc07f2d9d7f0        
+To https://gitee.com/luskyqi/python-every-day.git
+ ! [remote rejected] master -> master (failed to update ref)
+error: failed to push some refs to 'https://gitee.com/luskyqi/python-every-day.git'
