@@ -2830,3 +2830,8 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+fatal: cannot lock ref 'HEAD': is at 320d909f6c70b0910343a1810a43d7307f68b78c but expected 5465988d4b9e28b03ebce187baccc9ecff039bc1
+remote: Powered by [01;33mGITEE.COM [0m[[01;35mGNK-5.0[0m][0m        
+To https://gitee.com/luskyqi/python-every-day.git
+   5465988..320d909  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
