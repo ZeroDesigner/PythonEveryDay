@@ -2954,3 +2954,10 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+[master e3d2d27] Mon Mar  1 18:43:06 2021
+ 1 file changed, 13 insertions(+)
+remote: Powered by [01;33mGITEE.COM [0m[[01;35mGNK-5.0[0m][0m        
+remote: error: cannot lock ref 'refs/heads/master': is at e3d2d270a45b12f8d2122223b35c239d5445c4f6 but expected 5a2c14a20a6768104a376c40634c15409a6c452f        
+To https://gitee.com/luskyqi/python-every-day.git
+ ! [remote rejected] master -> master (failed to update ref)
+error: failed to push some refs to 'https://gitee.com/luskyqi/python-every-day.git'
