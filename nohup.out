@@ -4190,3 +4190,9 @@ remote: Powered by [01;33mGITEE.COM [0m[[01;35mGNK-5.0[0m][0m
 To https://gitee.com/luskyqi/python-every-day.git
    7de1b83..031731b  master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
+fatal: cannot lock ref 'HEAD': is at f9d8a26ea901fc386c4cd8e488ca8305c9df0f11 but expected 031731b8ea45633ffca150066b76112da34155b6
+remote: Powered by [01;33mGITEE.COM [0m[[01;35mGNK-5.0[0m][0m        
+remote: error: cannot lock ref 'refs/heads/master': is at f9d8a26ea901fc386c4cd8e488ca8305c9df0f11 but expected 031731b8ea45633ffca150066b76112da34155b6        
+To https://gitee.com/luskyqi/python-every-day.git
+ ! [remote rejected] master -> master (failed to update ref)
+error: failed to push some refs to 'https://gitee.com/luskyqi/python-every-day.git'
