@@ -3601,3 +3601,9 @@ remote: error: cannot lock ref 'refs/heads/master': is at 467f67b48faa40ee5f80db
 To https://gitee.com/luskyqi/python-every-day.git
  ! [remote rejected] master -> master (failed to update ref)
 error: failed to push some refs to 'https://gitee.com/luskyqi/python-every-day.git'
+fatal: cannot lock ref 'HEAD': is at e35528dffc5129335bbd5cbc835152a68fa36c03 but expected 467f67b48faa40ee5f80db9b83be79971cea5c8a
+remote: Powered by [01;33mGITEE.COM [0m[[01;35mGNK-5.0[0m][0m        
+remote: error: cannot lock ref 'refs/heads/master': is at e35528dffc5129335bbd5cbc835152a68fa36c03 but expected 467f67b48faa40ee5f80db9b83be79971cea5c8a        
+To https://gitee.com/luskyqi/python-every-day.git
+ ! [remote rejected] master -> master (failed to update ref)
+error: failed to push some refs to 'https://gitee.com/luskyqi/python-every-day.git'
