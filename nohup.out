@@ -3950,3 +3950,13 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+	modified:   "Python\346\257\217\346\227\245\344\270\200\350\260\210\357\275\234No.4.md"
+	modified:   nohup.out
+
+no changes added to commit
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
