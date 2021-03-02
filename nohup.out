@@ -3590,3 +3590,14 @@ remote: error: cannot lock ref 'refs/heads/master': is at 8d81dda33b24604eeed401
 To https://gitee.com/luskyqi/python-every-day.git
  ! [remote rejected] master -> master (failed to update ref)
 error: failed to push some refs to 'https://gitee.com/luskyqi/python-every-day.git'
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+remote: Powered by [01;33mGITEE.COM [0m[[01;35mGNK-5.0[0m][0m        
+remote: QENV: [31mdircalculate: opendir() failed[0m        
+remote: error: cannot lock ref 'refs/heads/master': is at 467f67b48faa40ee5f80db9b83be79971cea5c8a but expected 8d81dda33b24604eeed4017b098e7a85b9d49e34        
+To https://gitee.com/luskyqi/python-every-day.git
+ ! [remote rejected] master -> master (failed to update ref)
+error: failed to push some refs to 'https://gitee.com/luskyqi/python-every-day.git'
