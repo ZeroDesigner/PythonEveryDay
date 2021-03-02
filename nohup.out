@@ -3515,3 +3515,15 @@ Your branch is ahead of 'origin/master' by 1 commit.
 
 nothing to commit, working tree clean
 fatal: unable to access 'https://gitee.com/luskyqi/python-every-day.git/': Could not resolve host: gitee.com
+fatal: cannot lock ref 'HEAD': is at bf03672d961927fb18c11b7de1a7638002a11468 but expected 79cb3cf43857f9795f8d8b4fb5e5205d20c45478
+remote: Powered by [01;33mGITEE.COM [0m[[01;35mGNK-5.0[0m][0m        
+To https://gitee.com/luskyqi/python-every-day.git
+   0a033d3..bf03672  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+fatal: Unable to create '/Users/sujiaqi/Desktop/Github/python-every-day/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
