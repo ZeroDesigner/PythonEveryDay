@@ -4739,3 +4739,16 @@ remote: error: cannot lock ref 'refs/heads/master': is at db51ea16fc786a86de4bd1
 To https://gitee.com/luskyqi/python-every-day.git
  ! [remote rejected] master -> master (failed to update ref)
 error: failed to push some refs to 'https://gitee.com/luskyqi/python-every-day.git'
+[master c6a7cc5] Wed Mar  3 17:57:24 2021
+ 1 file changed, 6 insertions(+)
+remote: Powered by [01;33mGITEE.COM [0m[[01;35mGNK-5.0[0m][0m        
+To https://gitee.com/luskyqi/python-every-day.git
+   db51ea1..c6a7cc5  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+fatal: Unable to create '/Users/sujiaqi/Desktop/Github/python-every-day/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
