@@ -4765,3 +4765,6 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+[master 2bfdb4d] Wed Mar  3 19:40:41 2021
+ 1 file changed, 13 insertions(+)
+fatal: unable to access 'https://gitee.com/luskyqi/python-every-day.git/': SSL certificate problem: self signed certificate
