@@ -4506,3 +4506,8 @@ remote: Powered by [01;33mGITEE.COM [0m[[01;35mGNK-5.0[0m][0m
 To https://gitee.com/luskyqi/python-every-day.git
    25f600b..98ebc04  master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
+fatal: cannot lock ref 'HEAD': is at 97a23360298a8bcbb4fef5b84955b261eb382d60 but expected 98ebc040c5dfec7d5d2404cd4db118f9a87247da
+remote: Powered by [01;33mGITEE.COM [0m[[01;35mGNK-5.0[0m][0m        
+To https://gitee.com/luskyqi/python-every-day.git
+   98ebc04..97a2336  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
