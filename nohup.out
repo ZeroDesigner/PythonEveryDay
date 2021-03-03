@@ -4651,3 +4651,10 @@ may have crashed in this repository earlier:
 remove the file manually to continue.
 Everything up-to-date
 Branch 'master' set up to track remote branch 'master' from 'origin'.
+[master 9e11b64] Wed Mar  3 16:27:17 2021
+ 1 file changed, 9 insertions(+)
+remote: Powered by [01;33mGITEE.COM [0m[[01;35mGNK-5.0[0m][0m        
+remote: error: cannot lock ref 'refs/heads/master': is at 9e11b6450022b4cee1be4f25e023b39adf1dac2d but expected 149134d337a8436d1bd98207e87335a30b663ef5        
+To https://gitee.com/luskyqi/python-every-day.git
+ ! [remote rejected] master -> master (failed to update ref)
+error: failed to push some refs to 'https://gitee.com/luskyqi/python-every-day.git'
