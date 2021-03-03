@@ -72,3 +72,29 @@ Out[11]: list
 
 那么我们就可以这样使用
 
+```python
+In [12]: a = [i for i in range(0,4)]
+
+In [13]: a
+Out[13]: [0, 1, 2, 3]
+```
+
+或者
+
+```python
+In [14]: a = [i**2 for i in range(0,4)]
+
+In [15]: a
+Out[15]: [0, 1, 4, 9]
+```
+
+甚至于这样
+
+```python
+In [16]: a = [i**2 for i in range(0,4) if i > 1]
+
+In [17]: a
+Out[17]: [4, 9]
+
+```
+
