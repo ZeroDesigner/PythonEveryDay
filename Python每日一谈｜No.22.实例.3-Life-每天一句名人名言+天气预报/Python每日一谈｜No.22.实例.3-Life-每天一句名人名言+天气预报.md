@@ -1,5 +1,5 @@
 ---
-title: Python每日一谈｜No.21.实例.3-Life-每天一句名人名言+天气预报
+title: Python每日一谈｜No.22.实例.3-Life-每天一句名人名言+天气预报
 categories: Python每日一谈
 ---
 
