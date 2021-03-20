@@ -45,6 +45,8 @@ python every day
 
    使用：
 
+   
+   
    ```
    In [29]:import emoji
    In [30]: print(emoji.emojize(':smile:',use_aliases=True))
