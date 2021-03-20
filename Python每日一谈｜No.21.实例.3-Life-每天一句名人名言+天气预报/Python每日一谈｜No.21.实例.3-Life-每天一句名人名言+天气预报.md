@@ -154,12 +154,12 @@ python every day
    http://api.ip138.com/ip/?ip=填入你的ip地址&datatype=text&token=填入你的token
    
    ```
-In [98]: import requests
+   In [98]: import requests
     ...: url = 'http://api.ip138.com/ip/?ip=111.200.157.165&datatype=text&token=abbbcccddd123456789'
     ...: web = requests.get(url)
     ...: web.text
    Out[98]: '111.200.157.165\t中国 北京 北京  联通 100000 010'
-In [99]: # 很明显的可以看到是国家省份城市
+   In [99]: # 很明显的可以看到是国家省份城市
     ...: # 我们再来看一个
    In [97]: import requests
  ...: url = 'http://api.ip138.com/ip/?ip=27.128.190.0&datatype=text&token=f6f
@@ -167,11 +167,10 @@ In [99]: # 很明显的可以看到是国家省份城市
     ...: web = requests.get(url)
     ...: web.text
    Out[97]: '27.128.190.0\t中国 河北 石家庄  电信 050000 0311'
-In [97]: # 获取城市信息
-In [74]: city = web.text.split()[3]
-In [75]: city
-Out[75]: '石家庄'  
-    
+   In [97]: # 获取城市信息
+   In [74]: city = web.text.split()[3]
+   In [75]: city
+   Out[75]: '石家庄'  
    ```
    
 
