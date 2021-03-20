@@ -162,10 +162,10 @@ python every day
    In [99]: # 很明显的可以看到是国家省份城市
     ...: # 我们再来看一个
    In [97]: import requests
- ...: url = 'http://api.ip138.com/ip/?ip=27.128.190.0&datatype=text&token=f6f
-    ...: 83777eef0804454d340dd7aabbcb4'
-    ...: web = requests.get(url)
-    ...: web.text
+   ...: url = 'http://api.ip138.com/ip/?ip=27.128.190.0&datatype=text&token=f6f
+   ...: 83777eef0804454d340dd7aabbcb4'
+   ...: web = requests.get(url)
+   ...: web.text
    Out[97]: '27.128.190.0\t中国 河北 石家庄  电信 050000 0311'
    In [97]: # 获取城市信息
    In [74]: city = web.text.split()[3]
