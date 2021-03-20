@@ -153,7 +153,6 @@ python every day
    
    http://api.ip138.com/ip/?ip=填入你的ip地址&datatype=text&token=填入你的token
    
-
    ```
 In [98]: import requests
     ...: url = 'http://api.ip138.com/ip/?ip=111.200.157.165&datatype=text&token=abbbcccddd123456789'
@@ -253,7 +252,7 @@ Out[75]: '石家庄'
 
 
 
-```python
+```
 # -*- coding: utf-8 -*-
 # 导入所需包
 
