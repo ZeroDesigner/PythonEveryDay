@@ -1,4 +1,7 @@
-## Python每日一谈｜No.12.列表生成式
+---
+title: Python每日一谈｜No.12.列表生成式.1
+categories: Python每日一谈
+---
 
 ### 额
 
@@ -96,5 +99,6 @@ In [16]: a = [i**2 for i in range(0,4) if i > 1]
 In [17]: a
 Out[17]: [4, 9]
 
+  
 ```
 

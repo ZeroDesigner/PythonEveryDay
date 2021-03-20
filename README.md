@@ -1,4 +1,6 @@
-# PythonEveryDay
+---
+title: PythonEveryDay
+---
 
 Hi, 大家好。
 

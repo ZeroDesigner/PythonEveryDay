@@ -1,4 +1,7 @@
-## Python每日一谈｜No.9
+---
+title: Python每日一谈｜No.9
+categories: Python每日一谈
+---
 
 ### 循环中的一些关键词
 

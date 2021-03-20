@@ -1,4 +1,7 @@
-## Python每日一谈｜No.2.IDE简介
+---
+title:  Python每日一谈｜No.2.IDE简介
+categories: Python每日一谈
+---
 
 ### 前言：
 

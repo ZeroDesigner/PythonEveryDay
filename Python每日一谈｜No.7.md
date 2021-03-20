@@ -1,4 +1,7 @@
-## Python每日一谈｜No.7
+---
+title: Python每日一谈｜No.7
+categories: Python每日一谈
+---
 
 ### 循环
 

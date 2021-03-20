@@ -1,6 +1,7 @@
-## Python每日一谈｜No.1.学习所需资源
-
-
+---
+title: Python每日一谈｜No.1.学习所需资源
+categories: Python每日一谈
+---
 
 > Hi, 大家好。
 >

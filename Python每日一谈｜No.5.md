@@ -1,4 +1,7 @@
-### Python每日一谈｜No.5
+---
+title: Python每日一谈｜No.5
+categories: Python每日一谈
+---
 
 ### 字典
 

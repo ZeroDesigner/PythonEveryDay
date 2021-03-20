@@ -1,4 +1,7 @@
-## Python每日一谈｜No.6
+---
+title: Python每日一谈｜No.6
+categories: Python每日一谈
+---
 
 ### 条件控制
 

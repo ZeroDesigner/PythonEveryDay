@@ -1,4 +1,7 @@
-## Python每日一谈｜No.3 :hello world；注释；数据类型
+---
+title: Python每日一谈｜No.3 :hello world；注释；数据类型
+categories: Python每日一谈
+---
 
 ### 开始第一个编程
 

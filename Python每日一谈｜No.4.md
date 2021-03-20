@@ -1,4 +1,7 @@
-## Python每日一谈｜No.4
+---
+title: Python每日一谈｜No.4
+categories: Python每日一谈
+---
 
 ### 数据结构
 
