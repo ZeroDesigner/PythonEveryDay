@@ -136,7 +136,7 @@ python every day
    
    a. 首先查询本机ip地址
    
-   ```
+   ```python
    In [100]: #导入python自带的包
         ...: import requests
         ...: url = 'http://txt.go.sohu.com/ip/soip'
@@ -179,7 +179,7 @@ python every day
    
    http://api.ip138.com/ip/?ip=填入你的ip地址&datatype=text&token=填入你的token
    
-   ```
+   ```python
    In [98]: import requests
     ...: url = 'http://api.ip138.com/ip/?ip=111.200.157.165&datatype=text&token=abbbcccddd123456789'
     ...: web = requests.get(url)
@@ -207,7 +207,7 @@ python every day
 
    http://wthrcdn.etouch.cn/weather_mini?city=北京
 
-   ```
+   ```python 
    In [96]: import requests
        ...: url = 'http://wthrcdn.etouch.cn/weather_mini?city=北京'
        ...: web = requests.get(url)
@@ -277,7 +277,7 @@ python every day
 
 
 
-```
+```python
 # -*- coding: utf-8 -*-
 # 导入所需包
 
