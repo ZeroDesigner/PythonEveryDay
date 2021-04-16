@@ -15,7 +15,7 @@ categories: Python每日一谈
 
 步骤如下，3nss-->Action-->align-->to molecule-->5nwe
 
-![Screen Shot 2021-03-15 at 4.44.37 PM](https://gitee.com/luskyqi/markdown-png/raw/master/uPic/Screen%20Shot%202021-03-15%20at%204.44.37%20PM.png)
+![img](https://gitee.com/luskyqi/markdown-png/raw/master/uPic/Screen%20Shot%202021-03-15%20at%204.44.37%20PM.png)
 
 
 2. 当align不能满足的时候，你也可以使用pymol的插件alignment选择一个比对方式，来进行比较
@@ -47,7 +47,7 @@ align：
 
 虽然，我有时候并不喜欢做图，但是，我们可以比较容易的从图中获得其序列相对而言比较保守的信息
 
-![image-20210315173805551](https://gitee.com/luskyqi/markdown-png/raw/master/uPic/image-20210315173805551.png)
+![image-20210320202819295](/Users/sujiaqi/Pictures/Typora/image-20210320202819295.png)
 
 然后我们在看看看super，官方给的案例是
 
@@ -55,9 +55,9 @@ align：
 
 ![image-20210315174136972](https://gitee.com/luskyqi/markdown-png/raw/master/uPic/image-20210315174136972.png)
 
-两者的序列相似度，很不相似
+两者的序列相似度，部分链相似
 
-![image-20210315174349940](https://gitee.com/luskyqi/markdown-png/raw/master/uPic/image-20210315174349940.png)
+![image-20210320203316652](https://gitee.com/luskyqi/markdown-png/raw/master/uPic/image-20210320203316652.png)
 
 我使用了align方法，对齐比较了一下，rmsd = 13.697
 
@@ -69,7 +69,7 @@ align：
 
 序列相似度
 
-![image-20210315175038498](https://gitee.com/luskyqi/markdown-png/raw/master/uPic/image-20210315175038498.png)
+![image-20210320203438988](https://gitee.com/luskyqi/markdown-png/raw/master/uPic/image-20210320203438988.png)
 
 最后，我们看来看下fit
 
